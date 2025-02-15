@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const chatId = document.getElementById('chat_id').value;
         const message = document.getElementById('message').value;
 
-        fetch('https://your-server-domain/send_message.php', {
+        fetch('https://du8kjh1es1nz.share.zrok.io/send_message.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
