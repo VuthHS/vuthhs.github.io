@@ -22,7 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function fetchItems() {
-        fetch('https://linqvccc9gr7.share.zrok.io/item')
+        fetch('https://linqvccc9gr7.share.zrok.io/item', {
+    method: 'GET',
+    mode: 'no-cors',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+}))
         .then(response => {         
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
