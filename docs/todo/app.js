@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const name = document.getElementById('name').value;
         const description = document.getElementById('description').value;
 
-        fetch('https://xvna6g2uuk6t.share.zrok.io/item', {
+        fetch('https://linqvccc9gr7.share.zrok.io/item', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function fetchItems() {
-        fetch('https://xvna6g2uuk6t.share.zrok.io/item')
+        fetch('https://linqvccc9gr7.share.zrok.io/item')
         .then(response => response.json())
         .then(data => {
             itemsList.innerHTML = '';
