@@ -23,7 +23,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function fetchItems() {
         fetch('https://linqvccc9gr7.share.zrok.io/item')
-        .then(response => response.json())
+        .then(response => {         
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
         .then(data => {
             itemsList.innerHTML = '';
             data.forEach(item => {
