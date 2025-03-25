@@ -1,0 +1,6 @@
+using html css js create crud todo web app and store data in csv file without server side code
+=> Creating a CRUD To-Do web app using only HTML, CSS, and JavaScript and storing data in a CSV file directly on the client side without a server-side solution is quite challenging. However, we can achieve a similar setup using local storage to save the data in the browser.
+
+
+using html css js create login web app with crud and store data in csv file without server side code
+=> Creating a login web app with CRUD functionality and storing data in a CSV file without server-side code is complex because storing user credentials securely and ensuring CRUD operations typically require server-side processing. However, I can show you how to create a basic login web app with CRUD functionality that stores data in the browser's local storage. This won't be fully secure for real-world use, but it can serve as an educational example.
